@@ -1,0 +1,90 @@
+.intro{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/three.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro-right img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 14px solid rgb(37, 37, 37);
+}
+
+.intro-left{
+    margin-top: 50px;
+}
+
+.intro-left .p{
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 50px 50px 50px 0;
+    font-size: .9em;
+    font-weight: 600;
+    width: 90px;
+    text-align: center;
+}
+
+.intro-left h2{
+    font-size: 3.5em;
+    /* font-weight: 500; */
+    margin: 10px 0;
+}
+
+.intro-left .title{
+    font-size: 1.6em;
+}
+
+.info{
+    margin-top: 30px;
+}
+
+.info li span{
+    margin-left: 10px;
+}
+
+.info li a{
+    font-size: 1.09em;
+    color: #fff;
+    display: block;
+    padding: 8px 0;
+}
+
+/* .info li a:hover{
+    color: dodgerblue;
+} */
+
+@media screen and (max-width: 768px) {
+    .intro{
+    flex-direction: column-reverse;
+    }
+}
+@media screen and (max-width: 425px) {
+    .intro-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .intro-left h2{
+        font-size: 2.4em;
+    }
+
+    .intro-left .title{
+        font-size: 1.1em;
+    }
+
+    .info li a{
+        font-size: 1em;
+    }
+    .intro-right img{
+        width: 300px;
+        height: 300px;
+    }
+}
+

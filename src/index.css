@@ -1,0 +1,40 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: dodgerblue;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar{
+  background-color: rgb(24, 24, 24);
+  width: 5px;
+}
+
+section{
+  padding: 80px 10% 40px 10%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 425px){
+  section{
+    padding: 80p 5% 40px 5%;
+  }
+}
+

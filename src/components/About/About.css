@@ -47,25 +47,31 @@
 .aboutMe .button a{
     padding: 11px 15px;
     color: #fff;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 1.1em;
+    transition: all ease-in .3s;
     
 }
 
 .aboutMe .button a:nth-child(1){
     background-color: dodgerblue;
-    border: 2px solid dodgerblue;
+    border: 1px solid dodgerblue;
 }
 .aboutMe .button a:nth-child(1):hover{
     background-color: transparent;
 }
 
 .aboutMe .button a:nth-child(2){
-    border: 2px solid rgb(27, 86, 153);
+    border: 1px solid dodgerblue;
     background-color: transparent;
+    transition: all ease-in .3s;
 }
 .aboutMe .button a:nth-child(2):hover{
-    background-color: rgb(27, 86, 153);
+    background-color: dodgerblue;
+}
+.aboutMe .button a:nth-child(2):hover i{
+    /* background-color: dodgerblue; */
+    padding-left: 5px;
 }
 
 .aboutMe .button span{

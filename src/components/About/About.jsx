@@ -24,7 +24,7 @@ export const About = () => {
         </ul>
         <div className="button">
           <a href="/database passQ.pdf" download><span>Download CV</span><FontAwesomeIcon icon={faCloudDownload} /></a>
-          <a href="#contact" ><span>Hire Me</span><FontAwesomeIcon icon={faAngleRight} /></a>
+          <a href="#contact" ><span>Hire Me</span><i><FontAwesomeIcon icon={faAngleRight} /></i></a>
         </div>
         </div>
       </div>

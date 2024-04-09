@@ -8,23 +8,15 @@ export const Contact = () => {
   return (
     <>
     <section className='contact' id='contact'>
-        <div className="wrapper">
-          <div className="button">
-            <div className="icon"><i><FontAwesomeIcon className='i' icon={faFaceDizzy} /></i></div>
-            <span>facebook</span>
-          </div>
-          <div className="button">
-            <div className="icon"><i><FontAwesomeIcon className='i' icon={faFaceDizzy} /></i></div>
-            <span>facebook</span>
-          </div>
-          <div className="button">
-            <div className="icon"><i><FontAwesomeIcon className='i' icon={faFaceDizzy} /></i></div>
-            <span>facebook</span>
-          </div>
-          <div className="button">
-            <div className="icon"><i><FontAwesomeIcon className='i' icon={faFaceDizzy} /></i></div>
-            <span>facebook</span>
-          </div>
+        <h5>Get in touch</h5>
+        <h2>Contact Me</h2>
+        <div className="form">
+            <form action="">
+              <input type="text" name='' placeholder='Enter your fullname'/>
+              <input type="email" name="" id="" placeholder='Enter your email'/>
+              <textarea name="" id="" cols="30" rows="10" placeholder='Enter your message...'></textarea>
+              <button>Send Message</button>
+            </form>
         </div>
     </section>
     </>

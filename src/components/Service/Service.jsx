@@ -11,7 +11,7 @@ export const Service = () => {
       statement:
         "Development of custom web pages. Using current technologies of different varieties.",
     },
-    { id: 2, img: "/design.png", name: "Web Design", statement: "I offer design ofweb interfaces and mobile application made in figma and adobe xd." },
+    { id: 2, img: "/design.png", name: "Web Design", statement: "I offer design of web interfaces and mobile application made in figma and adobe xd." },
     {
       id: 3,
       img: "/graphic.png",

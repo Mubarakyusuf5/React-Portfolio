@@ -39,5 +39,8 @@ html{
   section{
     padding: 80p 5% 40px 5%;
   }
+  footer{
+    padding: 20px 5%;
+  }
 }
 

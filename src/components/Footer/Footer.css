@@ -1,0 +1,27 @@
+footer{
+    padding: 20px 10%;
+    background-color: dodgerblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(19, 99, 179);
+    border-radius: 10px;
+    transition: all ease-in .3s;
+    font-size: 1.3em;
+}
+
+footer a:hover{
+    background-color: rgb(53, 113, 173);
+}
+
+@media screen and (max-width:425px) {
+    footer{
+        font-size: .8em;
+    }
+}

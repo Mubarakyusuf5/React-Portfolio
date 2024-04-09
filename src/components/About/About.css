@@ -1,3 +1,90 @@
 .about{
     min-height: 100vh;
 }
+
+.about-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    /* color: #fff; */
+}
+
+.about-sec img{
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.aboutMe h5{
+    font-size: 1em;
+    margin:30px 0;
+}
+
+.aboutMe h2{
+    font-size: 2.7em;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.about-sec p{
+    line-height: 1.7;
+    color: #fff;
+}
+
+.aboutMe ul{
+    margin-top: 30px;
+    display: flex;
+    gap: 18px;
+}
+
+.aboutMe .button{
+    margin: 40px 0;
+    display: flex;
+    gap: 30px;
+}
+
+.aboutMe .button a{
+    padding: 11px 15px;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 1.1em;
+    
+}
+
+.aboutMe .button a:nth-child(1){
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
+.aboutMe .button a:nth-child(1):hover{
+    background-color: transparent;
+}
+
+.aboutMe .button a:nth-child(2){
+    border: 2px solid rgb(27, 86, 153);
+    background-color: transparent;
+}
+.aboutMe .button a:nth-child(2):hover{
+    background-color: rgb(27, 86, 153);
+}
+
+.aboutMe .button span{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .about-sec{
+        flex-direction: column;
+        gap: 15px;
+    }
+    .about-sec p{
+        line-height: 1.7;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-sec img{
+        width: 300px;
+        height: 300px;
+    }
+}

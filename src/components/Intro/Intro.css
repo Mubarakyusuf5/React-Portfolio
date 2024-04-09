@@ -59,9 +59,13 @@
     color: dodgerblue;
 } */
 
+
 @media screen and (max-width: 768px) {
     .intro{
     flex-direction: column-reverse;
+    }
+    .intro-right{
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 425px) {

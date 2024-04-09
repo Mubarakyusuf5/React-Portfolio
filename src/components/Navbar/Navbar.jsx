@@ -1,4 +1,10 @@
 import React, { useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    faBars,
+    faTimes
+  } from "@fortawesome/free-solid-svg-icons";
+
 import './Navbar.css'
 
 export const Navbar = () => {
@@ -8,7 +14,8 @@ export const Navbar = () => {
         {id:1, name:'Home', url:'#home'},
         {id:2, name:'About', url:'#about'},
         {id:3, name:'Services', url:'#service'},
-        {id:4, name:'Contact', url:'#contact'},
+        {id:4, name:'Portfolio', url:'#portfolio'},
+        {id:5, name:'Contact', url:'#contact'},
     ]
 
     const place = links.map(link => (
@@ -36,7 +43,9 @@ const toggle = ()=> {
         </ul>
         <div className='toggle'
         onClick={toggle}
-        >{isRes ? 'close' : 'open'}</div>
+        >
+            {isRes ? <FontAwesomeIcon icon={faTimes} /> : <FontAwesomeIcon icon={faBars} /> }
+        </div>
     </nav>
     </>
   )

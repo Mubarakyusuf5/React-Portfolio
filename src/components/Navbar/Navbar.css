@@ -10,6 +10,7 @@
     width: 100%;
     top: 0;
     transition: all ease-in .3s;
+    z-index: 10000;
 }
 
 .navbar.active{
@@ -66,6 +67,7 @@
 .toggle{
     display: none;
     cursor: pointer;
+    font-size: 1.5em;
 }
 
 .mobile{
@@ -83,7 +85,7 @@
         flex-direction: column;
         top: 66px;
         left: 0;
-        background-color: rgb(33, 36, 30);
+        background-color: #303030;
         width: 100%;
         height: 0;
         /* padding: 10px; */
@@ -98,16 +100,16 @@
         text-align: center;
         width: 100%;
         display: block;
-        margin: 10px 0;
+        margin-bottom: 10px 0;
     }
     
     .navbar ul a:hover{
-        background-color: #8b8989;
+        background-color: #8b8b8b;
 
     }
 
     .navbar ul.show{
-        height: 260px;
+        height: 200px;
         /* padding: 10px; */
     }
 

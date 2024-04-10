@@ -15,7 +15,7 @@
 
 .navbar.active{
     box-shadow: 6px 3px 9px rgba(0, 0, 0, 0.3);
-    background-color: dodgerblue;
+    background-color: #101010;
 }
 
 .navbar ul{
@@ -49,20 +49,20 @@
     width: 100%;
 }
 
-/* .navbar ul a:hover{
+.navbar ul a:hover{
     color: dodgerblue;
-} */
+}
 
 .navbar .logo{
     font-size: 1.9em;
     font-weight: 700;
-    color: dodgerblue;
+    color: #fff;
     transition: .3s;
 }
 
-.navbar.active .logo{
+/* .navbar.active .logo{
     color: #fff;
-}
+} */
 
 .toggle{
     display: none;

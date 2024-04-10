@@ -1,6 +1,6 @@
 footer{
     padding: 20px 10%;
-    background-color: dodgerblue;
+    background-color: #101010;
     color: #fff;
     display: flex;
     align-items: center;
@@ -10,14 +10,14 @@ footer{
 footer a{
     color: #fff;
     padding: 10px;
-    background-color: rgb(19, 99, 179);
+    background-color: dodgerblue;
     border-radius: 10px;
-    transition: all ease-in .3s;
+    transition: all ease-in-out .3s;
     font-size: 1.3em;
 }
 
 footer a:hover{
-    background-color: rgb(53, 113, 173);
+    background-color: rgb(25, 110, 196);
 }
 
 @media screen and (max-width:425px) {

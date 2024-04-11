@@ -29,6 +29,7 @@
     font-size: 1.1em;
     position: relative;
     transition: all ease-in .3s;
+    cursor: pointer;
 }
 
 
@@ -49,7 +50,19 @@
     width: 100%;
 }
 
-.navbar ul a:hover{
+.navbar ul a.activ::after{
+    content: '';
+    height: 3px;
+    width:100%;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+.navbar ul a:hover,
+.navbar ul a.activ{
     color: dodgerblue;
 }
 

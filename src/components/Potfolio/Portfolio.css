@@ -4,11 +4,11 @@
 
 .portfolio h5{
     font-size: 1em;
-    margin:30px 0;
+    margin-bottom:15px;
 }
 
 .portfolio h2{
-    font-size: 2.7em;
+    font-size: 2.5em;
     margin-bottom: 20px;
     color: #fff;
 }
@@ -17,6 +17,70 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
+}
+/* card design */
+.portcard{
+    width: 330px;
+    background: rgb(43, 43, 43);
+    position: relative;
+    /* background: #242424; */
+    border-radius: 10px 0 10px 0;
+    /* box-shadow: 0px 3px 4px rgba(255, 255, 255, 0.1); */
+    border-bottom: 3px solid dodgerblue;
+}
+
+.portcard img{
+    /* background: green; */
+    object-fit: cover;
+    width: 100%;
+    height: 180px;
+    border-radius: 10px  0 0 0;
+}
+
+.portcard .tag{
+    position: absolute;
+    background-color: rgb(30, 143, 255);
     color: #fff;
-    
+    padding: 4px 10px;
+    top: 5px;
+    left: 10px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+.portcard .main{
+    padding: 10px;
+}
+
+.portcard h3{
+    font-size: 1.3em;
+}
+
+.portcard p{
+    color: #ffffffe5;
+    margin-bottom: 10px;
+}
+
+.portcard .main .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.portcard .link{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.portcard .link a{
+    color: #fff;
+    font-size: 1.3em;
+    transition: all ease-in-out .3s;
+}
+
+.portcard .link a:hover{
+    transform: scale(1.3);
 }

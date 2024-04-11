@@ -3,6 +3,7 @@ import './About.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCloudDownload } from '@fortawesome/free-solid-svg-icons/faCloudDownload'
 import { faAngleRight} from '@fortawesome/free-solid-svg-icons'
+import { faCss3, faHtml5, faJs, faNode, faPhp, faReact } from '@fortawesome/free-brands-svg-icons'
 
 export const About = () => {
   return (
@@ -17,10 +18,12 @@ export const About = () => {
         I have rich experience in web site design & building and customization. Also I am good at:
         </p>
         <ul>
-          <li><span>jgj</span></li>
-          <li><span>jhhk</span></li>
-          <li><span>ytc</span></li>
-          <li><span>hvh</span></li>
+          <li><FontAwesomeIcon icon={faHtml5} /></li>
+          <li><FontAwesomeIcon icon={faCss3} /></li>
+          <li><FontAwesomeIcon icon={faReact} /></li>
+          <li><FontAwesomeIcon icon={faPhp} /></li>
+          <li><FontAwesomeIcon icon={faJs} /></li>
+          <li><FontAwesomeIcon icon={faNode} /></li>
         </ul>
         <div className="button">
           <a href="/database passQ.pdf" download><span>Download CV</span><FontAwesomeIcon icon={faCloudDownload} /></a>

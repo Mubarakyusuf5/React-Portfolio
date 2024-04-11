@@ -8,8 +8,11 @@ export const Contact = () => {
   return (
     <>
     <section className='contact' id='contact'>
+      <div className="c">
         <h5>Get in touch</h5>
-        <h2>Contact Me</h2>
+        <h2>Contact me</h2>
+        <p></p>
+      </div>
         <div className="form">
             <form action="">
               <input type="text" name='' placeholder='Enter your fullname'/>

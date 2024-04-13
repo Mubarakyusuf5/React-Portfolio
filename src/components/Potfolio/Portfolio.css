@@ -14,14 +14,15 @@
 }
 
 .portfolio-con{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 30px;
     gap: 30px;
 }
 /* card design */
 .portcard{
-    width: 330px;
+    /* width: 330px; */
     background: rgb(43, 43, 43);
     position: relative;
     /* background: #242424; */

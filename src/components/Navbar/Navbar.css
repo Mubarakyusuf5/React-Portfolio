@@ -61,8 +61,7 @@
     bottom: -1px;
 }
 
-.navbar ul a:hover,
-.navbar ul a.activ{
+.navbar ul a:hover{
     color: dodgerblue;
 }
 

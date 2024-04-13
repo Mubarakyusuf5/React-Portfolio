@@ -1,6 +1,6 @@
 .contact{
     min-height: 80vh;
-
+    background-color: rgb(43, 43, 43);
 }
 
 .c{
@@ -33,7 +33,7 @@
     width: 450px;
 }
 
-.form input, textarea{
+.form .user, textarea{
     display: block;
     width: 100%;
     margin-bottom: 10px;
@@ -42,9 +42,10 @@
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     outline: none;
+    font-size: 1em;
 }
 
-.form input:focus, textarea:focus{
+.form .user:focus, textarea:focus{
     border: 1px solid rgba(30, 143, 255);
 }
 
@@ -53,7 +54,7 @@
     min-height: 200px;
 }
 
-.form button{
+.form .btn{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid dodgerblue;
@@ -63,6 +64,6 @@
     transition: all 0.3s ease-in;
 }
 
-.form button:hover{
+.form .btn:hover{
     background-color: transparent;
 }

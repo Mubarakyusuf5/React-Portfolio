@@ -57,7 +57,7 @@ export const Contact = () => {
               placeholder="Enter your message..."
             ></textarea>
             <input type="submit" className="btn" value="Send message" />
-            <div className="message">{result ? "Sent Successfully" : ""}</div>
+            {result &&<div className="message">{result ? "Sent Successfully" : null}</div>}
           </form>
         </div>
       </section>

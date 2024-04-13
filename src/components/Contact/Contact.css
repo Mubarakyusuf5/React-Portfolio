@@ -67,3 +67,12 @@
 .form .btn:hover{
     background-color: transparent;
 }
+
+.form .message{
+    background-color: #fff;
+    padding: 9px;
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

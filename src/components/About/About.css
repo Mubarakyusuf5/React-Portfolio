@@ -39,11 +39,25 @@
 }
 
 .aboutMe ul li{
-    font-size: 1.6em;
     color: #fff;
-    background-color: darkgray;
+    background-color: rgb(121, 121, 121);
     padding: 3px 5px;
     border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: all .3s ease-in;
+    cursor: pointer;
+    box-shadow: inset 0px 6px 10px rgba(0, 0, 0, 0.5);
+    /* inset 0px 6px 7px 1px rgba(0, 0, 0, 0.7); */
+}
+.aboutMe ul li:hover{
+    transform: translateY(-10px);
+}
+
+.aboutMe ul li .icon{
+    font-size: 25px;
 }
 
 .aboutMe .button{
